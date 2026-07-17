@@ -75,7 +75,11 @@ ends. For another capture, click **1** again.
   File > Import > Google Maps Capture → pick the `.rdc`.
 - Export FBX → import into 3ds Max, re-link textures, rescale.
 
+<img src="blender_screenshot.jpg" alt="Blender Import" width="50%">
+
 ## Importing into Fusion 360
+
+<img src="fusion_screenshot.jpg" alt="Fusion 360 Import" width="50%">
 
 Fusion 360 handles textured meshes poorly through its standard local import. To get the Google Earth photo textures mapped onto your mesh in Fusion 360, use the cloud translator:
 
