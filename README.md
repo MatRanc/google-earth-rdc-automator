@@ -119,3 +119,4 @@ worth it for a complete model. If tiles still look incomplete:
   path at `./tools/RenderDoc_1.25/RenderDoc_1.25_64/qrenderdoc.exe`.
 - **Location won't resolve** → enter explicit `lat, lon` instead of a place name
   (place-name lookup uses OpenStreetMap Nominatim and needs internet).
+- **Fusion 360 textures disappear on reopen** → Fusion defaults to displaying Mesh Face Groups (pastel colors) to show geometry structure every time you open a file. Press `Shift + F` to hide them and reveal your textures again.
