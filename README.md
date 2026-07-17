@@ -1,6 +1,6 @@
 # Google Earth 3D → RenderDoc capture app
 
-<img src="screenshot.jpg" alt="App Screenshot" width="25%">
+<img src="screenshot.jpg" alt="App Screenshot" width="50%">
 
 Automates the capture stage of the "import Google Earth into 3ds Max" workflow,
 **up to producing the RenderDoc capture file (`.rdc`)** — with no manual
