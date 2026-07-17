@@ -11,7 +11,7 @@ location.
 
 The Blender **Maps Models Importer** add-on was reverse-engineered specifically
 for Google's 3D renderer. Bing Maps 3D uses a different engine the importer
-can't read, so this targets Google Earth — the source the original video uses.
+can't read, so this targets Google Earth.
 
 ## Why the bundled RenderDoc 1.25
 
@@ -69,7 +69,7 @@ ends. For another capture, click **1** again.
 - `tools/RenderDoc_1.25/` — bundled RenderDoc 1.25 (portable).
 - `run.bat` — launcher.
 
-## After the .rdc (same as the video, out of scope here)
+## After the .rdc
 
 - Blender **4.1** + [Maps Models Importer v0.7.0](https://github.com/eliemichel/MapsModelsImporter):
   File > Import > Google Maps Capture → pick the `.rdc`.
