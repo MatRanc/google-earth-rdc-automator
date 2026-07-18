@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 *.rdc
 .DS_Store
+build/
+dist/
+*.spec
+*.exe

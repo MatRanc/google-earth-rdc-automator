@@ -46,7 +46,15 @@ CAPTURE_BASENAME = "earth"
 CREATE_NO_WINDOW = 0x08000000
 DEBUG_PORT = 9390
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+import sys
+
+if getattr(sys, 'frozen', False):
+    HERE = sys._MEIPASS
+    EXEC_DIR = os.path.dirname(sys.executable)
+else:
+    HERE = os.path.dirname(os.path.abspath(__file__))
+    EXEC_DIR = HERE
+
 WORKER = os.path.join(HERE, "capture_worker.py")
 user32 = ctypes.windll.user32
 
@@ -72,7 +80,7 @@ def find_chrome():
 
 def find_qrenderdoc():
     """Prefer the bundled RenderDoc 1.25, else fall back to a system install."""
-    bundled = os.path.join(HERE, "tools", "RenderDoc_1.25",
+    bundled = os.path.join(EXEC_DIR, "tools", "RenderDoc_1.25",
                            "RenderDoc_1.25_64", "qrenderdoc.exe")
     candidates = [
         bundled,

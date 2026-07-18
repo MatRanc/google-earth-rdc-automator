@@ -25,11 +25,11 @@ and is what the app uses by default.
 - Windows, Google Chrome
 - RenderDoc **1.25** — already bundled under `./tools`. (Full app also at
   https://renderdoc.org/builds if you want the standalone install.)
-- Python 3.9+ (**No `pip install` required!** The app uses only standard Python libraries).
+- **No Python required** if you download the standalone `.exe` release! (If running from source, you need Python 3.9+ and no pip installs are required).
 
 ## Usage
 
-1. Double-click `run.bat` (or run `python app.py`).
+1. Double-click the `google-earth-rdc-automator.exe` (or `run.bat` if running from source).
 2. Paths auto-fill: the bundled qrenderdoc 1.25, your Chrome, and an output
    folder (default `Documents\EarthCaptures`).
 3. Type a place name (e.g. `Ottawa Parliament`) or `lat, lon`.
