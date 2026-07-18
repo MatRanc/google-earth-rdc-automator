@@ -25,7 +25,7 @@ and is what the app uses by default.
 - Windows, Google Chrome
 - RenderDoc **1.25** — already bundled under `./tools`. (Full app also at
   https://renderdoc.org/builds if you want the standalone install.)
-- **No Python required** if you download the standalone `.exe` release! (If running from source, you need Python 3.9+ and no pip installs are required).
+- **No Python required** if you download the standalone `.zip` from the [Releases page](https://github.com/MatRanc/google-earth-rdc-automator/releases/latest)! Just extract it and run the `.exe`. (If running from source, you need Python 3.9+ and no pip installs are required).
 
 ## Usage
 
